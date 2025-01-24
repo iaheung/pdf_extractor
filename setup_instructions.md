@@ -39,5 +39,5 @@
 
 3. **Run the tests using unittest:**
     ```sh
-    python -m unittest discover
+    python -m unittest discover -s tests -p "test_*.py"
     ```
